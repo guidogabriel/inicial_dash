@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-	background-color: gray;
+	//background-color: gray;
 }
 
 .container-fluid {
@@ -27,6 +27,9 @@ body {
 	background-color: white;
 	box-shadow: .350rem .455rem rgba(108,118,134,.1);
 	text-align: center;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .card-img {
